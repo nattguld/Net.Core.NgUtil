@@ -1,0 +1,1377 @@
+[
+  {
+    "country_code": "AF",
+    "country_name": "Afghanistan",
+    "currency_code": "AFN",
+    "usd_modifier": 77.47939333786
+    ,"currency_symbol": "؋"},
+  {
+    "country_code": "AX",
+    "country_name": "Aland Islands",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "AL",
+    "country_name": "Albania",
+    "currency_code": "ALL",
+    "usd_modifier": 110.091504830648
+    ,"currency_symbol": "Lek"},
+  {
+    "country_code": "DZ",
+    "country_name": "Algeria",
+    "currency_code": "DZD",
+    "usd_modifier": 119.535817842314
+    ,"currency_symbol": "DZD"},
+  {
+    "country_code": "AS",
+    "country_name": "American Samoa",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AD",
+    "country_name": "Andorra",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "AO",
+    "country_name": "Angola",
+    "currency_code": "AOA",
+    "usd_modifier": 483.87028273892
+    ,"currency_symbol": "AOA"},
+  {
+    "country_code": "AI",
+    "country_name": "Anguilla",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AQ",
+    "country_name": "Antarctica",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AG",
+    "country_name": "Antigua and Barbuda",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AR",
+    "country_name": "Argentina",
+    "currency_code": "ARS",
+    "usd_modifier": 59.75671362495601
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AM",
+    "country_name": "Armenia",
+    "currency_code": "AMD",
+    "usd_modifier": 479.940448143654
+    ,"currency_symbol": "AMD"},
+  {
+    "country_code": "AW",
+    "country_name": "Aruba",
+    "currency_code": "AWG",
+    "usd_modifier": 1.800676288418
+    ,"currency_symbol": "ƒ"},
+  {
+    "country_code": "AU",
+    "country_name": "Australia",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "AT",
+    "country_name": "Austria",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "AZ",
+    "country_name": "Azerbaijan",
+    "currency_code": "AZN",
+    "usd_modifier": 1.700946436174
+    ,"currency_symbol": "₼"},
+  {
+    "country_code": "BS",
+    "country_name": "Bahamas",
+    "currency_code": "BSD",
+    "usd_modifier": 1.000151211118
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BH",
+    "country_name": "Bahrain",
+    "currency_code": "BHD",
+    "usd_modifier": 0.377147753758
+    ,"currency_symbol": "BHD"},
+  {
+    "country_code": "BD",
+    "country_name": "Bangladesh",
+    "currency_code": "BDT",
+    "usd_modifier": 84.91237011252001
+    ,"currency_symbol": "BDT"},
+  {
+    "country_code": "BB",
+    "country_name": "Barbados",
+    "currency_code": "BBD",
+    "usd_modifier": 2.019448092512
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BY",
+    "country_name": "Belarus",
+    "currency_code": "BYN",
+    "usd_modifier": 2.1177673437320004
+    ,"currency_symbol": "Br"},
+  {
+    "country_code": "BE",
+    "country_name": "Belgium",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "BZ",
+    "country_name": "Belize",
+    "currency_code": "BZD",
+    "usd_modifier": 2.0160322429660003
+    ,"currency_symbol": "BZ$"},
+  {
+    "country_code": "BJ",
+    "country_name": "Benin",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "BM",
+    "country_name": "Bermuda",
+    "currency_code": "BMD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BT",
+    "country_name": "Bhutan",
+    "currency_code": "BTN",
+    "usd_modifier": 71.607850239934
+    ,"currency_symbol": "BTN"},
+  {
+    "country_code": "BO",
+    "country_name": "Bolivia",
+    "currency_code": "BOB",
+    "usd_modifier": 6.91638913052
+    ,"currency_symbol": "$b"},
+  {
+    "country_code": "BA",
+    "country_name": "Bosnia and Herzegovina",
+    "currency_code": "BAM",
+    "usd_modifier": 1.75791204717
+    ,"currency_symbol": "KM"},
+  {
+    "country_code": "BW",
+    "country_name": "Botswana",
+    "currency_code": "BWP",
+    "usd_modifier": 10.663155061258
+    ,"currency_symbol": "P"},
+  {
+    "country_code": "BV",
+    "country_name": "Bouvet Island",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "currency_code": "BRL",
+    "usd_modifier": 4.049503580862
+    ,"currency_symbol": "R$"},
+  {
+    "country_code": "IO",
+    "country_name": "British Indian Ocean Territory",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "VG",
+    "country_name": "British Virgin Islands",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BN",
+    "country_name": "Brunei Darussalam",
+    "currency_code": "BND",
+    "usd_modifier": 1.3507332453360001
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "BG",
+    "country_name": "Bulgaria",
+    "currency_code": "BGN",
+    "usd_modifier": 1.75883865371
+    ,"currency_symbol": "лв"},
+  {
+    "country_code": "BF",
+    "country_name": "Burkina Faso",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "BI",
+    "country_name": "Burundi",
+    "currency_code": "BIF",
+    "usd_modifier": 1885.7084363698941
+    ,"currency_symbol": "BIF"},
+  {
+    "country_code": "KH",
+    "country_name": "Cambodia",
+    "currency_code": "KHR",
+    "usd_modifier": 4081.5334856741097
+    ,"currency_symbol": "៛"},
+  {
+    "country_code": "CM",
+    "country_name": "Cameroon",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "CA",
+    "country_name": "Canada",
+    "currency_code": "CAD",
+    "usd_modifier": 1.303824463962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "CV",
+    "country_name": "Cape Verde",
+    "currency_code": "CVE",
+    "usd_modifier": 99.587214211628
+    ,"currency_symbol": "CVE"},
+  {
+    "country_code": "KY",
+    "country_name": "Cayman Islands",
+    "currency_code": "KYD",
+    "usd_modifier": 0.833462791134
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "CF",
+    "country_name": "Central African Republic",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "TD",
+    "country_name": "Chad",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "CL",
+    "country_name": "Chile",
+    "currency_code": "CLP",
+    "usd_modifier": 758.674536672172
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "CN",
+    "country_name": "China",
+    "currency_code": "CNY",
+    "usd_modifier": 6.9489103212200005
+    ,"currency_symbol": "¥"},
+  {
+    "country_code": "CC",
+    "country_name": "Cocos Islands",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "CO",
+    "country_name": "Colombia",
+    "currency_code": "COP",
+    "usd_modifier": 3245.939457216064
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "KM",
+    "country_name": "Comoros",
+    "currency_code": "KMF",
+    "usd_modifier": 443.2163743915
+    ,"currency_symbol": "KMF"},
+  {
+    "country_code": "CD",
+    "country_name": "Congo, democratic republic",
+    "currency_code": "CDF",
+    "usd_modifier": 1685.63299463912
+    ,"currency_symbol": "CDF"},
+  {
+    "country_code": "CG",
+    "country_name": "Congo",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "CK",
+    "country_name": "Cook Islands",
+    "currency_code": "NZD",
+    "usd_modifier": 1.503959781568
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "CR",
+    "country_name": "Costa Rica",
+    "currency_code": "CRC",
+    "usd_modifier": 573.0532393550379
+    ,"currency_symbol": "₡"},
+  {
+    "country_code": "HR",
+    "country_name": "Croatia",
+    "currency_code": "HRK",
+    "usd_modifier": 6.702918775300001
+    ,"currency_symbol": "kn"},
+  {
+    "country_code": "CU",
+    "country_name": "Cuba",
+    "currency_code": "CUP",
+    "usd_modifier": 26.509959417124
+    ,"currency_symbol": "₱"},
+  {
+    "country_code": "CY",
+    "country_name": "Cyprus",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "CZ",
+    "country_name": "Czech Republic",
+    "currency_code": "CZK",
+    "usd_modifier": 22.694823418004
+    ,"currency_symbol": "Kč"},
+  {
+    "country_code": "DK",
+    "country_name": "Denmark",
+    "currency_code": "DKK",
+    "usd_modifier": 6.722726564424001
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "DJ",
+    "country_name": "Djibouti",
+    "currency_code": "DJF",
+    "usd_modifier": 177.786781445882
+    ,"currency_symbol": "DJF"},
+  {
+    "country_code": "DM",
+    "country_name": "Dominica",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "DO",
+    "country_name": "Dominican Republic",
+    "currency_code": "DOP",
+    "usd_modifier": 53.225027240158006
+    ,"currency_symbol": "RD$"},
+  {
+    "country_code": "EC",
+    "country_name": "Ecuador",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "EG",
+    "country_name": "Egypt",
+    "currency_code": "EGP",
+    "usd_modifier": 16.03692782475
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "SV",
+    "country_name": "El Salvador",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "GQ",
+    "country_name": "Equatorial Guinea",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "ER",
+    "country_name": "Eritrea",
+    "currency_code": "ERN",
+    "usd_modifier": 15.00559675337
+    ,"currency_symbol": "ERN"},
+  {
+    "country_code": "EE",
+    "country_name": "Estonia",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "ET",
+    "country_name": "Ethiopia",
+    "currency_code": "ETB",
+    "usd_modifier": 32.203754191374
+    ,"currency_symbol": "ETB"},
+  {
+    "country_code": "FO",
+    "country_name": "Faroe Islands",
+    "currency_code": "DKK",
+    "usd_modifier": 6.722726564424001
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "FJ",
+    "country_name": "Fiji",
+    "currency_code": "FJD",
+    "usd_modifier": 2.155843675582
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "FI",
+    "country_name": "Finland",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "FR",
+    "country_name": "France",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "GF",
+    "country_name": "French Guiana",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "PF",
+    "country_name": "French Polynesia",
+    "currency_code": "XPF",
+    "usd_modifier": 107.74053041239401
+    ,"currency_symbol": "XPF"},
+  {
+    "country_code": "TF",
+    "country_name": "French Southern Territories",
+    "currency_code": "XPF",
+    "usd_modifier": 107.74053041239401
+    ,"currency_symbol": "XPF"},
+  {
+    "country_code": "GA",
+    "country_name": "Gabon",
+    "currency_code": "XAF",
+    "usd_modifier": 589.620622435398
+    ,"currency_symbol": "XAF"},
+  {
+    "country_code": "GM",
+    "country_name": "Gambia",
+    "currency_code": "GMD",
+    "usd_modifier": 51.225537172976
+    ,"currency_symbol": "GMD"},
+  {
+    "country_code": "GE",
+    "country_name": "Georgia",
+    "currency_code": "GEL",
+    "usd_modifier": 2.8660408083560003
+    ,"currency_symbol": "GEL"},
+  {
+    "country_code": "DE",
+    "country_name": "Germany",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "GH",
+    "country_name": "Ghana",
+    "currency_code": "GHS",
+    "usd_modifier": 5.71717584607
+    ,"currency_symbol": "¢"},
+  {
+    "country_code": "GI",
+    "country_name": "Gibraltar",
+    "currency_code": "GIP",
+    "usd_modifier": 0.8131854014140001
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "GR",
+    "country_name": "Greece",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "GL",
+    "country_name": "Greenland",
+    "currency_code": "DKK",
+    "usd_modifier": 6.722726564424001
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "GD",
+    "country_name": "Grenada",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "GP",
+    "country_name": "Guadeloupe",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "GU",
+    "country_name": "Guam",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "GT",
+    "country_name": "Guatemala",
+    "currency_code": "GTQ",
+    "usd_modifier": 7.711419341076001
+    ,"currency_symbol": "Q"},
+  {
+    "country_code": "GG",
+    "country_name": "Guernsey",
+    "currency_code": "GGP",
+    "usd_modifier": 0.762903952158
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "GN",
+    "country_name": "Guinea",
+    "currency_code": "GNF",
+    "usd_modifier": 9423.540033185216
+    ,"currency_symbol": "GNF"},
+  {
+    "country_code": "GW",
+    "country_name": "Guinea-Bissau",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "GY",
+    "country_name": "Guyana",
+    "currency_code": "GYD",
+    "usd_modifier": 209.19850295387602
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "HT",
+    "country_name": "Haiti",
+    "currency_code": "HTG",
+    "usd_modifier": 98.280322050286
+    ,"currency_symbol": "HTG"},
+  {
+    "country_code": "VA",
+    "country_name": "Holy See",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "HN",
+    "country_name": "Honduras",
+    "currency_code": "HNL",
+    "usd_modifier": 24.788788668692003
+    ,"currency_symbol": "L"},
+  {
+    "country_code": "HK",
+    "country_name": "Hong Kong",
+    "currency_code": "HKD",
+    "usd_modifier": 7.778282549308
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "HU",
+    "country_name": "Hungary",
+    "currency_code": "HUF",
+    "usd_modifier": 297.208650973462
+    ,"currency_symbol": "Ft"},
+  {
+    "country_code": "IS",
+    "country_name": "Iceland",
+    "currency_code": "ISK",
+    "usd_modifier": 123.376670321582
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "IN",
+    "country_name": "India",
+    "currency_code": "INR",
+    "usd_modifier": 71.401847613732
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "ID",
+    "country_name": "Indonesia",
+    "currency_code": "IDR",
+    "usd_modifier": 13866.209353273358
+    ,"currency_symbol": "Rp"},
+  {
+    "country_code": "IR",
+    "country_name": "Iran",
+    "currency_code": "IRR",
+    "usd_modifier": 42120.82411059224
+    ,"currency_symbol": "﷼"},
+  {
+    "country_code": "IQ",
+    "country_name": "Iraq",
+    "currency_code": "IQD",
+    "usd_modifier": 1190.94742333858
+    ,"currency_symbol": "IQD"},
+  {
+    "country_code": "IE",
+    "country_name": "Ireland",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "IM",
+    "country_name": "Isle of Man",
+    "currency_code": "IMP",
+    "usd_modifier": 0.762903952158
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "IL",
+    "country_name": "Israel",
+    "currency_code": "ILS",
+    "usd_modifier": 3.46623265209
+    ,"currency_symbol": "₪"},
+  {
+    "country_code": "IT",
+    "country_name": "Italy",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "JM",
+    "country_name": "Jamaica",
+    "currency_code": "JMD",
+    "usd_modifier": 132.017557887516
+    ,"currency_symbol": "J$"},
+  {
+    "country_code": "JP",
+    "country_name": "Japan",
+    "currency_code": "JPY",
+    "usd_modifier": 109.122499294308
+    ,"currency_symbol": "¥"},
+  {
+    "country_code": "JE",
+    "country_name": "Jersey",
+    "currency_code": "JEP",
+    "usd_modifier": 0.762903952158
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "JO",
+    "country_name": "Jordan",
+    "currency_code": "JOD",
+    "usd_modifier": 0.70928581974
+    ,"currency_symbol": "JOD"},
+  {
+    "country_code": "KZ",
+    "country_name": "Kazakhstan",
+    "currency_code": "KZT",
+    "usd_modifier": 378.271581752904
+    ,"currency_symbol": "лв"},
+  {
+    "country_code": "KE",
+    "country_name": "Kenya",
+    "currency_code": "KES",
+    "usd_modifier": 101.630991573332
+    ,"currency_symbol": "KES"},
+  {
+    "country_code": "KI",
+    "country_name": "Kiribati",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "KW",
+    "country_name": "Kuwait",
+    "currency_code": "KWD",
+    "usd_modifier": 0.303443850254
+    ,"currency_symbol": "KWD"},
+  {
+    "country_code": "KG",
+    "country_name": "Kyrgyzstan",
+    "currency_code": "KGS",
+    "usd_modifier": 69.651145105214
+    ,"currency_symbol": "лв"},
+  {
+    "country_code": "LV",
+    "country_name": "Latvia",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "LB",
+    "country_name": "Lebanon",
+    "currency_code": "LBP",
+    "usd_modifier": 1513.56875885915
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "LS",
+    "country_name": "Lesotho",
+    "currency_code": "LSL",
+    "usd_modifier": 14.265452236994001
+    ,"currency_symbol": "LSL"},
+  {
+    "country_code": "LR",
+    "country_name": "Liberia",
+    "currency_code": "LRD",
+    "usd_modifier": 188.67846196959
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "LY",
+    "country_name": "Libya",
+    "currency_code": "LYD",
+    "usd_modifier": 1.3633000091779999
+    ,"currency_symbol": "LYD"},
+  {
+    "country_code": "LI",
+    "country_name": "Liechtenstein",
+    "currency_code": "CHF",
+    "usd_modifier": 0.973635870186
+    ,"currency_symbol": "CHF"},
+  {
+    "country_code": "LT",
+    "country_name": "Lithuania",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "LU",
+    "country_name": "Luxembourg",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MO",
+    "country_name": "Macao",
+    "currency_code": "MOP",
+    "usd_modifier": 8.011580485248
+    ,"currency_symbol": "MOP"},
+  {
+    "country_code": "MK",
+    "country_name": "Macedonia",
+    "currency_code": "MKD",
+    "usd_modifier": 55.272609986002
+    ,"currency_symbol": "ден"},
+  {
+    "country_code": "MG",
+    "country_name": "Madagascar",
+    "currency_code": "MGA",
+    "usd_modifier": 3657.373781450252
+    ,"currency_symbol": "MGA"},
+  {
+    "country_code": "MW",
+    "country_name": "Malawi",
+    "currency_code": "MWK",
+    "usd_modifier": 735.2759016099579
+    ,"currency_symbol": "MWK"},
+  {
+    "country_code": "MY",
+    "country_name": "Malaysia",
+    "currency_code": "MYR",
+    "usd_modifier": 4.103043446514
+    ,"currency_symbol": "RM"},
+  {
+    "country_code": "MV",
+    "country_name": "Maldives",
+    "currency_code": "MVR",
+    "usd_modifier": 15.456266687795999
+    ,"currency_symbol": "MVR"},
+  {
+    "country_code": "ML",
+    "country_name": "Mali",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "MT",
+    "country_name": "Malta",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MH",
+    "country_name": "Marshall Islands",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "MQ",
+    "country_name": "Martinique",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MU",
+    "country_name": "Mauritius",
+    "currency_code": "MUR",
+    "usd_modifier": 36.509441990096
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "YT",
+    "country_name": "Mayotte",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MX",
+    "country_name": "Mexico",
+    "currency_code": "MXN",
+    "usd_modifier": 18.777504308354
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "FM",
+    "country_name": "Micronesia",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "MD",
+    "country_name": "Moldova",
+    "currency_code": "MDL",
+    "usd_modifier": 17.100776488358
+    ,"currency_symbol": "MDL"},
+  {
+    "country_code": "MC",
+    "country_name": "Monaco",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MN",
+    "country_name": "Mongolia",
+    "currency_code": "MNT",
+    "usd_modifier": 2743.4617474497804
+    ,"currency_symbol": "₮"},
+  {
+    "country_code": "ME",
+    "country_name": "Montenegro",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "MS",
+    "country_name": "Montserrat",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "MA",
+    "country_name": "Morocco",
+    "currency_code": "MAD",
+    "usd_modifier": 9.606110208583999
+    ,"currency_symbol": "MAD"},
+  {
+    "country_code": "MZ",
+    "country_name": "Mozambique",
+    "currency_code": "MZN",
+    "usd_modifier": 61.833193900196
+    ,"currency_symbol": "MT"},
+  {
+    "country_code": "MM",
+    "country_name": "Myanmar",
+    "currency_code": "MMK",
+    "usd_modifier": 1459.272932506716
+    ,"currency_symbol": "MMK"},
+  {
+    "country_code": "NA",
+    "country_name": "Namibia",
+    "currency_code": "NAD",
+    "usd_modifier": 14.265660048752
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "NR",
+    "country_name": "Nauru",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "NP",
+    "country_name": "Nepal",
+    "currency_code": "NPR",
+    "usd_modifier": 114.577905194356
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "NL",
+    "country_name": "Netherlands",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "NC",
+    "country_name": "New Caledonia",
+    "currency_code": "XPF",
+    "usd_modifier": 107.74053041239401
+    ,"currency_symbol": "XPF"},
+  {
+    "country_code": "NZ",
+    "country_name": "New Zealand",
+    "currency_code": "NZD",
+    "usd_modifier": 1.503959781568
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "NI",
+    "country_name": "Nicaragua",
+    "currency_code": "NIO",
+    "usd_modifier": 34.162424991424
+    ,"currency_symbol": "C$"},
+  {
+    "country_code": "NE",
+    "country_name": "Niger",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "NG",
+    "country_name": "Nigeria",
+    "currency_code": "NGN",
+    "usd_modifier": 361.63237317142404
+    ,"currency_symbol": "₦"},
+  {
+    "country_code": "NU",
+    "country_name": "Niue",
+    "currency_code": "NZD",
+    "usd_modifier": 1.503959781568
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "NF",
+    "country_name": "Norfolk Island",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "currency_code": "KPW",
+    "usd_modifier": 900.351347002768
+    ,"currency_symbol": "₩"},
+  {
+    "country_code": "MP",
+    "country_name": "Northern Mariana Islands",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "NO",
+    "country_name": "Norway",
+    "currency_code": "NOK",
+    "usd_modifier": 8.8656904091
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "OM",
+    "country_name": "Oman",
+    "currency_code": "OMR",
+    "usd_modifier": 0.385116570002
+    ,"currency_symbol": "﷼"},
+  {
+    "country_code": "PK",
+    "country_name": "Pakistan",
+    "currency_code": "PKR",
+    "usd_modifier": 154.88316928473
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "PW",
+    "country_name": "Palau",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "PA",
+    "country_name": "Panama",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "PG",
+    "country_name": "Papua New Guinea",
+    "currency_code": "PGK",
+    "usd_modifier": 3.3810046420060003
+    ,"currency_symbol": "PGK"},
+  {
+    "country_code": "PY",
+    "country_name": "Paraguay",
+    "currency_code": "PYG",
+    "usd_modifier": 6516.345093788695
+    ,"currency_symbol": "Gs"},
+  {
+    "country_code": "PE",
+    "country_name": "Peru",
+    "currency_code": "PEN",
+    "usd_modifier": 3.323749354014
+    ,"currency_symbol": "S/."},
+  {
+    "country_code": "PH",
+    "country_name": "Philippines",
+    "currency_code": "PHP",
+    "usd_modifier": 50.573988836476005
+    ,"currency_symbol": "₱"},
+  {
+    "country_code": "PN",
+    "country_name": "Pitcairn",
+    "currency_code": "NZD",
+    "usd_modifier": 1.503959781568
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "PL",
+    "country_name": "Poland",
+    "currency_code": "PLN",
+    "usd_modifier": 3.8070286417040005
+    ,"currency_symbol": "zł"},
+  {
+    "country_code": "PT",
+    "country_name": "Portugal",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "PR",
+    "country_name": "Puerto Rico",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "QA",
+    "country_name": "Qatar",
+    "currency_code": "QAR",
+    "usd_modifier": 3.6421178668880003
+    ,"currency_symbol": "﷼"},
+  {
+    "country_code": "RO",
+    "country_name": "Romania",
+    "currency_code": "RON",
+    "usd_modifier": 4.296117662438
+    ,"currency_symbol": "lei"},
+  {
+    "country_code": "RU",
+    "country_name": "Russia",
+    "currency_code": "RUB",
+    "usd_modifier": 61.207898216172005
+    ,"currency_symbol": "₽"},
+  {
+    "country_code": "RU",
+    "country_name": "Russia",
+    "currency_code": "RUB",
+    "usd_modifier": 61.207898216172005
+    ,"currency_symbol": "₽"},
+  {
+    "country_code": "RW",
+    "country_name": "Rwanda",
+    "currency_code": "RWF",
+    "usd_modifier": 935.351399117048
+    ,"currency_symbol": "RWF"},
+  {
+    "country_code": "KN",
+    "country_name": "Saint Kitts and Nevis",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "LC",
+    "country_name": "Saint Lucia",
+    "currency_code": "XCD",
+    "usd_modifier": 2.703566199084
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "PM",
+    "country_name": "Saint Pierre and Miquelon",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "WS",
+    "country_name": "Samoa",
+    "currency_code": "WST",
+    "usd_modifier": 2.643408743424
+    ,"currency_symbol": "WST"},
+  {
+    "country_code": "ST",
+    "country_name": "Sao Tome and Principe",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "SA",
+    "country_name": "Saudi Arabia",
+    "currency_code": "SAR",
+    "usd_modifier": 3.7527312976959997
+    ,"currency_symbol": "﷼"},
+  {
+    "country_code": "SN",
+    "country_name": "Senegal",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "RS",
+    "country_name": "Serbia",
+    "currency_code": "RSD",
+    "usd_modifier": 105.78962511492
+    ,"currency_symbol": "Дин."},
+  {
+    "country_code": "SC",
+    "country_name": "Seychelles",
+    "currency_code": "SCR",
+    "usd_modifier": 13.704308312550001
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "SL",
+    "country_name": "Sierra Leone",
+    "currency_code": "SLL",
+    "usd_modifier": 9703.645392338392
+    ,"currency_symbol": "SLL"},
+  {
+    "country_code": "SG",
+    "country_name": "Singapore",
+    "currency_code": "SGD",
+    "usd_modifier": 1.350604599962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "SX",
+    "country_name": "Sint Maarten",
+    "currency_code": "ANG",
+    "usd_modifier": 1.675194870924
+    ,"currency_symbol": "ƒ"},
+  {
+    "country_code": "SK",
+    "country_name": "Slovakia",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "SI",
+    "country_name": "Slovenia",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "SB",
+    "country_name": "Solomon Islands",
+    "currency_code": "SBD",
+    "usd_modifier": 8.305447901892
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "SO",
+    "country_name": "Somalia",
+    "currency_code": "SOS",
+    "usd_modifier": 580.21768825326
+    ,"currency_symbol": "S"},
+  {
+    "country_code": "ZA",
+    "country_name": "South Africa",
+    "currency_code": "ZAR",
+    "usd_modifier": 14.152018503756
+    ,"currency_symbol": "R"},
+  {
+    "country_code": "KR",
+    "country_name": "South Korea",
+    "currency_code": "KRW",
+    "usd_modifier": 1162.256488517426
+    ,"currency_symbol": "₩"},
+  {
+    "country_code": "ES",
+    "country_name": "Spain",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "SD",
+    "country_name": "Sudan",
+    "currency_code": "SDG",
+    "usd_modifier": 45.167113729056
+    ,"currency_symbol": "SDG"},
+  {
+    "country_code": "SR",
+    "country_name": "Suriname",
+    "currency_code": "SRD",
+    "usd_modifier": 7.460813654433999
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "SZ",
+    "country_name": "Swaziland",
+    "currency_code": "SZL",
+    "usd_modifier": 14.26548552286
+    ,"currency_symbol": "SZL"},
+  {
+    "country_code": "SE",
+    "country_name": "Sweden",
+    "currency_code": "SEK",
+    "usd_modifier": 9.44934007705
+    ,"currency_symbol": "kr"},
+  {
+    "country_code": "CH",
+    "country_name": "Switzerland",
+    "currency_code": "CHF",
+    "usd_modifier": 0.973635870186
+    ,"currency_symbol": "CHF"},
+  {
+    "country_code": "SY",
+    "country_name": "Syria",
+    "currency_code": "SYP",
+    "usd_modifier": 515.193669855876
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "TW",
+    "country_name": "Taiwan",
+    "currency_code": "TWD",
+    "usd_modifier": 30.033256638190004
+    ,"currency_symbol": "NT$"},
+  {
+    "country_code": "TJ",
+    "country_name": "Tajikistan",
+    "currency_code": "TJS",
+    "usd_modifier": 9.69632120277
+    ,"currency_symbol": "TJS"},
+  {
+    "country_code": "TZ",
+    "country_name": "Tanzania",
+    "currency_code": "TZS",
+    "usd_modifier": 2301.463953319034
+    ,"currency_symbol": "TZS"},
+  {
+    "country_code": "TH",
+    "country_name": "Thailand",
+    "currency_code": "THB",
+    "usd_modifier": 30.381270263018003
+    ,"currency_symbol": "฿"},
+  {
+    "country_code": "TG",
+    "country_name": "Togo",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "TK",
+    "country_name": "Tokelau",
+    "currency_code": "NZD",
+    "usd_modifier": 1.503959781568
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "TO",
+    "country_name": "Tonga",
+    "currency_code": "TOP",
+    "usd_modifier": 2.29555974869
+    ,"currency_symbol": "TOP"},
+  {
+    "country_code": "TT",
+    "country_name": "Trinidad and Tobago",
+    "currency_code": "TTD",
+    "usd_modifier": 6.762952083676001
+    ,"currency_symbol": "TT$"},
+  {
+    "country_code": "TN",
+    "country_name": "Tunisia",
+    "currency_code": "TND",
+    "usd_modifier": 2.8185580706980002
+    ,"currency_symbol": "TND"},
+  {
+    "country_code": "TR",
+    "country_name": "Turkey",
+    "currency_code": "TRY",
+    "usd_modifier": 5.905628724328
+    ,"currency_symbol": "TRY"},
+  {
+    "country_code": "TM",
+    "country_name": "Turkmenistan",
+    "currency_code": "TMT",
+    "usd_modifier": 3.5113188073960004
+    ,"currency_symbol": "TMT"},
+  {
+    "country_code": "TC",
+    "country_name": "Turks and Caicos Islands",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "TV",
+    "country_name": "Tuvalu",
+    "currency_code": "AUD",
+    "usd_modifier": 1.454510478962
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "UG",
+    "country_name": "Uganda",
+    "currency_code": "UGX",
+    "usd_modifier": 3700.475124856358
+    ,"currency_symbol": "UGX"},
+  {
+    "country_code": "UA",
+    "country_name": "Ukraine",
+    "currency_code": "UAH",
+    "usd_modifier": 23.945725154262
+    ,"currency_symbol": "₴"},
+  {
+    "country_code": "GB",
+    "country_name": "United Kingdom",
+    "currency_code": "GBP",
+    "usd_modifier": 0.762784302964
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "UK",
+    "country_name": "United Kingdom (Alt.)",
+    "currency_code": "GBP",
+    "usd_modifier": 0.762784302964
+    ,"currency_symbol": "£"},
+  {
+    "country_code": "US",
+    "country_name": "United States",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "UY",
+    "country_name": "Uruguay",
+    "currency_code": "UYU",
+    "usd_modifier": 37.289672584934
+    ,"currency_symbol": "$U"},
+  {
+    "country_code": "UZ",
+    "country_name": "Uzbekistan",
+    "currency_code": "UZS",
+    "usd_modifier": 9515.574967781115
+    ,"currency_symbol": "лв"},
+  {
+    "country_code": "VU",
+    "country_name": "Vanuatu",
+    "currency_code": "VUV",
+    "usd_modifier": 115.711078421044
+    ,"currency_symbol": "VUV"},
+  {
+    "country_code": "VN",
+    "country_name": "Vietnam",
+    "currency_code": "VND",
+    "usd_modifier": 23181.20887613739
+    ,"currency_symbol": "₫"},
+  {
+    "country_code": "EH",
+    "country_name": "Western Sahara",
+    "currency_code": "USD",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"},
+  {
+    "country_code": "YE",
+    "country_name": "Yemen",
+    "currency_code": "YER",
+    "usd_modifier": 250.394407756228
+    ,"currency_symbol": "﷼"},
+  {
+    "country_code": "ZM",
+    "country_name": "Zambia",
+    "currency_code": "ZMW",
+    "usd_modifier": 14.156916923766001
+    ,"currency_symbol": "K"},
+  {
+    "country_code": "CIV",
+    "country_name": "Ivory Coast",
+    "currency_code": "XOF",
+    "usd_modifier": 587.220921107792
+    ,"currency_symbol": "XOF"},
+  {
+    "country_code": "RKS",
+    "country_name": "Kosovo",
+    "currency_code": "EUR",
+    "usd_modifier": 0.899618
+    ,"currency_symbol": "€"},
+  {
+    "country_code": "LKA",
+    "country_name": "Sri Lanka",
+    "currency_code": "LKR",
+    "usd_modifier": 181.63399692326402
+    ,"currency_symbol": "₨"},
+  {
+    "country_code": "ZW",
+    "country_name": "Zimbabwe",
+    "currency_code": "$",
+    "usd_modifier": 1.0
+    ,"currency_symbol": "$"}
+  }
+]

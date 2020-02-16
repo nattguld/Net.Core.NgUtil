@@ -1,0 +1,1262 @@
+[
+{"country_code":"AF","country_name":"Afghanistan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AX","country_name":"Aland Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AL","country_name":"Albania", 
+	"cities":[
+		{"name":"Tirana","geoCoords":{"latitude":41.340059, "longitude":19.816205}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"DZ","country_name":"Algeria", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AS","country_name":"American Samoa", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AD","country_name":"Andorra", 
+	"cities":[
+		{"name":"Andorra","geoCoords":{"latitude":42.534560, "longitude":1.577855}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AO","country_name":"Angola", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AI","country_name":"Anguilla", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AQ","country_name":"Antarctica", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AG","country_name":"Antigua and Barbuda", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AR","country_name":"Argentina", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AM","country_name":"Armenia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AW","country_name":"Aruba", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"AU","country_name":"Australia", 
+	"cities":[
+		{"name":"Perth","geoCoords":{"latitude":-31.958698, "longitude":115.919650}, "type":"LARGE_CITY"},
+		{"name":"Adelaide","geoCoords":{"latitude":-34.922657, "longitude":138.608819}, "type":"LARGE_CITY"},
+		{"name":"Melbourne","geoCoords":{"latitude":-37.793745, "longitude":145.060425}, "type":"LARGE_CITY"},
+		{"name":"Canberra","geoCoords":{"latitude":-35.280161, "longitude":149.136593}, "type":"LARGE_CITY"},
+		{"name":"Sydney","geoCoords":{"latitude":-33.851724, "longitude":151.060445}, "type":"LARGE_CITY"},
+		{"name":"Brisbane","geoCoords":{"latitude":-27.493178, "longitude":153.053132}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"AT","country_name":"Austria", 
+	"cities":[
+		{"name":"Graz","geoCoords":{"latitude":47.059923, "longitude":15.443296}, "type":"BIG_CITY"},
+		{"name":"Vienna","geoCoords":{"latitude":48.198312, "longitude":16.399070}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"AZ","country_name":"Azerbaijan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BS","country_name":"Bahamas", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BH","country_name":"Bahrain", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BD","country_name":"Bangladesh", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BB","country_name":"Barbados", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BY","country_name":"Belarus", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BE","country_name":"Belgium", 
+	"cities":[
+		{"name":"Ghent","geoCoords":{"latitude":51.052054, "longitude":3.735666}, "type":"BIG_CITY"},
+		{"name":"Brussels","geoCoords":{"latitude":50.842973, "longitude":4.382717}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"BZ","country_name":"Belize", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BJ","country_name":"Benin", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BM","country_name":"Bermuda", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BT","country_name":"Bhutan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BO","country_name":"Bolivia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BA","country_name":"Bosnia and Herzegovina", 
+	"cities":[
+		{"name":"Sarajevo","geoCoords":{"latitude":43.859212, "longitude":18.392276}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BW","country_name":"Botswana", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BV","country_name":"Bouvet Island", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BR","country_name":"Brazil", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IO","country_name":"British Indian Ocean Territory", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"VG","country_name":"British Virgin Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BN","country_name":"Brunei Darussalam", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BG","country_name":"Bulgaria", 
+	"cities":[
+		{"name":"Sofia","geoCoords":{"latitude":42.690204, "longitude":23.335593}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"BF","country_name":"Burkina Faso", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"BI","country_name":"Burundi", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KH","country_name":"Cambodia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CM","country_name":"Cameroon", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CA","country_name":"Canada", 
+	"cities":[
+		{"name":"Hamilton","geoCoords":{"latitude":43.212573, "longitude":-79.876264}, "type":"BIG_CITY"},
+		{"name":"Toronto","geoCoords":{"latitude":43.722870, "longitude":-79.469765}, "type":"LARGE_CITY"},
+		{"name":"Ottawa","geoCoords":{"latitude":45.402977, "longitude":-75.695940}, "type":"BIG_CITY"},
+		{"name":"Montreal","geoCoords":{"latitude":45.514715, "longitude":-73.655922}, "type":"BIG_CITY"},
+		{"name":"Halifax","geoCoords":{"latitude":44.648431, "longitude":-63.600248}, "type":"MEDIUM_CITY"},
+		{"name":"Winnipeg","geoCoords":{"latitude":49.881093, "longitude":-97.140430}, "type":"LARGE_CITY"},
+		{"name":"Regina","geoCoords":{"latitude":50.447315, "longitude":-104.602953}, "type":"BIG_CITY"},
+		{"name":"Edmonton","geoCoords":{"latitude":53.529448, "longitude":-113.497086}, "type":"METROPOL"},
+		{"name":"Calgary","geoCoords":{"latitude":51.048470, "longitude":-114.056708}, "type":"LARGE_CITY"},
+		{"name":"Vancouver","geoCoords":{"latitude":49.233019, "longitude":-123.091578}, "type":"BIG_CITY"},
+		{"name":"Richmond","geoCoords":{"latitude":49.148791, "longitude":-123.143373}, "type":"BIG_CITY"},
+		{"name":"Langley","geoCoords":{"latitude":49.102958, "longitude":-122.656906}, "type":"MEDIUM_CITY"},
+		{"name":"Surrey","geoCoords":{"latitude":49.151349, "longitude":-122.827910}, "type":"LARGE_CITY"},
+		{"name":"Burnaby","geoCoords":{"latitude":49.240193, "longitude":-122.948021}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"CV","country_name":"Cape Verde", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KY","country_name":"Cayman Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CF","country_name":"Central African Republic", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TD","country_name":"Chad", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CL","country_name":"Chile", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CN","country_name":"China", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CC","country_name":"Cocos Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CO","country_name":"Colombia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KM","country_name":"Comoros", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CD","country_name":"Congo, democratic republic", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CG","country_name":"Congo", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CK","country_name":"Cook Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CR","country_name":"Costa Rica", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"HR","country_name":"Croatia", 
+	"cities":[
+		{"name":"Zagreb","geoCoords":{"latitude":45.801707, "longitude":15.994609}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"CU","country_name":"Cuba", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CY","country_name":"Cyprus", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"CZ","country_name":"Czech Republic", 
+	"cities":[
+		{"name":"Prague","geoCoords":{"latitude":50.081202, "longitude":14.436705}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"DK","country_name":"Denmark", 
+	"cities":[
+		{"name":"Copenhagen","geoCoords":{"latitude":55.673864, "longitude":12.516199}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"DJ","country_name":"Djibouti", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"DM","country_name":"Dominica", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"DO","country_name":"Dominican Republic", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"EC","country_name":"Ecuador", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"EG","country_name":"Egypt", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SV","country_name":"El Salvador", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GQ","country_name":"Equatorial Guinea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ER","country_name":"Eritrea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"EE","country_name":"Estonia", 
+	"cities":[
+		{"name":"Tallin","geoCoords":{"latitude":59.426114, "longitude":24.722971}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ET","country_name":"Ethiopia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"FO","country_name":"Faroe Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"FJ","country_name":"Fiji", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"FI","country_name":"Finland", 
+	"cities":[
+		{"name":"Helsinki","geoCoords":{"latitude":60.236877, "longitude":24.926527}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"FR","country_name":"France", 
+	"cities":[
+		{"name":"Paris","geoCoords":{"latitude":48.857840, "longitude":2.349524}, "type":"LARGE_CITY"},
+		{"name":"Rennes","geoCoords":{"latitude":48.111189, "longitude":-1.658970}, "type":"MEDIUM_CITY"},
+		{"name":"Nantes","geoCoords":{"latitude":47.217418, "longitude":-1.547752}, "type":"BIG_CITY"},
+		{"name":"Marseilles","geoCoords":{"latitude":43.296394, "longitude":5.407897}, "type":"BIG_CITY"},
+		{"name":"Bordeaux","geoCoords":{"latitude":44.836099, "longitude":-0.583103}, "type":"LARGE_CITY"},
+		{"name":"Toulouse","geoCoords":{"latitude":43.597992, "longitude":1.428155}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"GF","country_name":"French Guiana", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PF","country_name":"French Polynesia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TF","country_name":"French Southern Territories", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GA","country_name":"Gabon", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GM","country_name":"Gambia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GE","country_name":"Georgia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"DE","country_name":"Germany", 
+	"cities":[
+		{"name":"Berlin","geoCoords":{"latitude":52.504010, "longitude":13.409156}, "type":"LARGE_CITY"},
+		{"name":"Munich","geoCoords":{"latitude":48.136029, "longitude":11.580186}, "type":"BIG_CITY"},
+		{"name":"Hamburg","geoCoords":{"latitude":53.560048, "longitude":10.020825}, "type":"LARGE_CITY"},
+		{"name":"Bremen","geoCoords":{"latitude":53.074389, "longitude":8.821949}, "type":"BIG_CITY"},
+		{"name":"Hannover","geoCoords":{"latitude":52.382050, "longitude":9.751625}, "type":"BIG_CITY"},
+		{"name":"Dresden","geoCoords":{"latitude":51.044716, "longitude":13.744197}, "type":"LARGE_CITY"},
+		{"name":"Leipzig","geoCoords":{"latitude":51.333353, "longitude":12.385640}, "type":"BIG_CITY"},
+		{"name":"Nurnberg","geoCoords":{"latitude":49.440537, "longitude":11.078655}, "type":"BIG_CITY"},
+		{"name":"Frankfurt am Main","geoCoords":{"latitude":50.117582, "longitude":8.683936}, "type":"BIG_CITY"},
+		{"name":"Dusseldorf","geoCoords":{"latitude":51.222237, "longitude":6.798777}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"GH","country_name":"Ghana", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GI","country_name":"Gibraltar", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GR","country_name":"Greece", 
+	"cities":[
+		{"name":"Athens","geoCoords":{"latitude":37.996915, "longitude":23.741345}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"GL","country_name":"Greenland", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GD","country_name":"Grenada", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GP","country_name":"Guadeloupe", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GU","country_name":"Guam", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GT","country_name":"Guatemala", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GG","country_name":"Guernsey", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GN","country_name":"Guinea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GW","country_name":"Guinea-Bissau", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"GY","country_name":"Guyana", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"HT","country_name":"Haiti", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"VA","country_name":"Holy See", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"HN","country_name":"Honduras", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"HK","country_name":"Hong Kong", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"HU","country_name":"Hungary", 
+	"cities":[
+		{"name":"Budapest","geoCoords":{"latitude":47.488803, "longitude":19.087209}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"IS","country_name":"Iceland", 
+	"cities":[
+		{"name":"Reykjavik","geoCoords":{"latitude":64.113717, "longitude":-21.844506}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"IN","country_name":"India", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ID","country_name":"Indonesia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IR","country_name":"Iran", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IQ","country_name":"Iraq", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IE","country_name":"Ireland", 
+	"cities":[
+		{"name":"Dublin","geoCoords":{"latitude":53.341693, "longitude":-6.270449}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"IM","country_name":"Isle of Man", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IL","country_name":"Israel", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"IT","country_name":"Italy", 
+	"cities":[
+		{"name":"Palermo","geoCoords":{"latitude":38.111975, "longitude":13.355543}, "type":"MEDIUM_CITY"},
+		{"name":"Bari","geoCoords":{"latitude":41.110062, "longitude":16.872741}, "type":"SMALL_CITY"},
+		{"name":"Napoli","geoCoords":{"latitude":40.846722, "longitude":14.242040}, "type":"LARGE_CITY"},
+		{"name":"Rome","geoCoords":{"latitude":41.894810, "longitude":12.490677}, "type":"METROPOL"},
+		{"name":"Florence","geoCoords":{"latitude":43.777388, "longitude":11.243077}, "type":"LARGE_CITY"},
+		{"name":"Bologna","geoCoords":{"latitude":44.500349, "longitude":11.342831}, "type":"MEDIUM_CITY"},
+		{"name":"Genoa","geoCoords":{"latitude":44.405383, "longitude":8.953489}, "type":"BIG_CITY"},
+		{"name":"Turin","geoCoords":{"latitude":45.067311, "longitude":7.647141}, "type":"BIG_CITY"},
+		{"name":"Milan","geoCoords":{"latitude":45.472358, "longitude":9.190669}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"JM","country_name":"Jamaica", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"JP","country_name":"Japan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"JE","country_name":"Jersey", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"JO","country_name":"Jordan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KZ","country_name":"Kazakhstan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KE","country_name":"Kenya", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KI","country_name":"Kiribati", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KW","country_name":"Kuwait", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KG","country_name":"Kyrgyzstan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LV","country_name":"Latvia", 
+	"cities":[
+		{"name":"Riga","geoCoords":{"latitude":56.949989, "longitude":24.104671}, "type":"SMALL_CITY"}
+	]
+},
+{"country_code":"LB","country_name":"Lebanon", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LS","country_name":"Lesotho", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LR","country_name":"Liberia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LY","country_name":"Libya", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LI","country_name":"Liechtenstein", 
+	"cities":[
+		{"name":"Vaduz","geoCoords":{"latitude":47.135739, "longitude":9.536774}, "type":"SMALL_CITY"}
+	]
+},
+{"country_code":"LT","country_name":"Lithuania", 
+	"cities":[
+		{"name":"Vilinius","geoCoords":{"latitude":54.693359, "longitude":25.270234}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LU","country_name":"Luxembourg", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MO","country_name":"Macao", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MK","country_name":"Macedonia", 
+	"cities":[
+		{"name":"Skopje","geoCoords":{"latitude":42.007058, "longitude":21.439446}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MG","country_name":"Madagascar", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MW","country_name":"Malawi", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MY","country_name":"Malaysia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MV","country_name":"Maldives", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ML","country_name":"Mali", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MT","country_name":"Malta", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MH","country_name":"Marshall Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MQ","country_name":"Martinique", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MR","country_name":"Mauritania", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MU","country_name":"Mauritius", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"YT","country_name":"Mayotte", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MX","country_name":"Mexico", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"FM","country_name":"Micronesia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MD","country_name":"Moldova", 
+	"cities":[
+		{"name":"Chisinau","geoCoords":{"latitude":47.024595, "longitude":28.842849}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"MC","country_name":"Monaco", 
+	"cities":[
+		{"name":"Monaco","geoCoords":{"latitude":43.734291, "longitude":7.417645}, "type":"SMALL_CITY"}
+	]
+},
+{"country_code":"MN","country_name":"Mongolia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ME","country_name":"Montenegro", 
+	"cities":[
+		{"name":"Podgorica","geoCoords":{"latitude":42.444080, "longitude":19.268960}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"MS","country_name":"Montserrat", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MA","country_name":"Morocco", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MZ","country_name":"Mozambique", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MM","country_name":"Myanmar", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NA","country_name":"Namibia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NR","country_name":"Nauru", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NP","country_name":"Nepal", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NL","country_name":"Netherlands", 
+	"cities":[
+		{"name":"Groningen","geoCoords":{"latitude":53.216393, "longitude":6.567729}, "type":"BIG_CITY"},
+		{"name":"Den Haag","geoCoords":{"latitude":52.059833, "longitude":4.328539}, "type":"LARGE_CITY"},
+		{"name":"Amsterdam","geoCoords":{"latitude":52.367378, "longitude":4.899116}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"NC","country_name":"New Caledonia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NZ","country_name":"New Zealand", 
+	"cities":[
+		{"name":"Auckland","geoCoords":{"latitude":-36.894569, "longitude":174.780010}, "type":"LARGE_CITY"},
+		{"name":"Christchurch","geoCoords":{"latitude":-43.521971, "longitude":172.621910}, "type":"SMALL_CITY"},
+		{"name":"Wellington","geoCoords":{"latitude":-41.302728, "longitude":174.776313}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"NI","country_name":"Nicaragua", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NE","country_name":"Niger", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NG","country_name":"Nigeria", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NU","country_name":"Niue", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NF","country_name":"Norfolk Island", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KP","country_name":"North Korea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"MP","country_name":"Northern Mariana Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"NO","country_name":"Norway", 
+	"cities":[
+		{"name":"Oslo","geoCoords":{"latitude":59.923845, "longitude":10.791817}, "type":"METROPOL"}
+	]
+},
+{"country_code":"OM","country_name":"Oman", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PK","country_name":"Pakistan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PW","country_name":"Palau", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PA","country_name":"Panama", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PG","country_name":"Papua New Guinea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PY","country_name":"Paraguay", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PE","country_name":"Peru", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PH","country_name":"Philippines", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PN","country_name":"Pitcairn", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PL","country_name":"Poland", 
+	"cities":[
+		{"name":"Krakow","geoCoords":{"latitude":50.059074, "longitude":19.971671}, "type":"BIG_CITY"},
+		{"name":"Warsaw","geoCoords":{"latitude":52.242426, "longitude":21.031732}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"PT","country_name":"Portugal", 
+	"cities":[
+		{"name":"Lisboa","geoCoords":{"latitude":38.752360, "longitude":-9.183387}, "type":"LARGE_CITY"},
+		{"name":"Porto","geoCoords":{"latitude":41.157146, "longitude":-8.610002}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"PR","country_name":"Puerto Rico", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"QA","country_name":"Qatar", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"RO","country_name":"Romania", 
+	"cities":[
+		{"name":"Bucharest","geoCoords":{"latitude":44.432991, "longitude":26.107445}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"RU","country_name":"Russia", 
+	"cities":[
+		{"name":"St Petersburg","geoCoords":{"latitude":59.944964, "longitude":30.378488}, "type":"LARGE_CITY"},
+		{"name":"Moscow","geoCoords":{"latitude":55.747816, "longitude":37.627896}, "type":"METROPOL"}
+	]
+},
+{"country_code":"RU","country_name":"Russian Federation", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"RW","country_name":"Rwanda", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KN","country_name":"Saint Kitts and Nevis", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LC","country_name":"Saint Lucia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"PM","country_name":"Saint Pierre and Miquelon", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"WS","country_name":"Samoa", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ST","country_name":"Sao Tome and Principe", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SA","country_name":"Saudi Arabia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SN","country_name":"Senegal", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"RS","country_name":"Serbia", 
+	"cities":[
+		{"name":"Belgrade","geoCoords":{"latitude":44.796793, "longitude":20.463694}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"SC","country_name":"Seychelles", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SL","country_name":"Sierra Leone", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SG","country_name":"Singapore", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SX","country_name":"Sint Maarten", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SK","country_name":"Slovakia", 
+	"cities":[
+		{"name":"Bratislava","geoCoords":{"latitude":48.152663, "longitude":17.115626}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SI","country_name":"Slovenia", 
+	"cities":[
+		{"name":"Ljubljana","geoCoords":{"latitude":46.052837, "longitude":14.512564}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SB","country_name":"Solomon Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SO","country_name":"Somalia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ZA","country_name":"South Africa", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"KR","country_name":"South Korea", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SS","country_name":"South Sudan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ES","country_name":"Spain", 
+	"cities":[
+		{"name":"Barcelona","geoCoords":{"latitude":41.384895, "longitude":2.143311}, "type":"BIG_CITY"},
+		{"name":"Valencia","geoCoords":{"latitude":39.471392, "longitude":-0.372233}, "type":"BIG_CITY"},
+		{"name":"Murcia","geoCoords":{"latitude":37.983281, "longitude":-1.129579}, "type":"BIG_CITY"},
+		{"name":"Malaga","geoCoords":{"latitude":36.713951, "longitude":-4.451229}, "type":"BIG_CITY"},
+		{"name":"Sevilla","geoCoords":{"latitude":37.381995, "longitude":-5.988298}, "type":"BIG_CITY"},
+		{"name":"Madrid","geoCoords":{"latitude":40.407949, "longitude":-3.693610}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"SD","country_name":"Sudan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SR","country_name":"Suriname", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SZ","country_name":"Swaziland", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SE","country_name":"Sweden", 
+	"cities":[
+		{"name":"Stockholm","geoCoords":{"latitude":59.320716, "longitude":18.071039}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"CH","country_name":"Switzerland", 
+	"cities":[
+		{"name":"Bern","geoCoords":{"latitude":46.948010, "longitude":7.448357}, "type":"BIG_CITY"},
+		{"name":"Zurich","geoCoords":{"latitude":47.378289, "longitude":8.539621}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"SY","country_name":"Syria", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TW","country_name":"Taiwan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TJ","country_name":"Tajikistan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TZ","country_name":"Tanzania", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TH","country_name":"Thailand", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TG","country_name":"Togo", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TK","country_name":"Tokelau", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TO","country_name":"Tonga", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TT","country_name":"Trinidad and Tobago", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TN","country_name":"Tunisia", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TR","country_name":"Turkey", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TM","country_name":"Turkmenistan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TC","country_name":"Turks and Caicos Islands", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"TV","country_name":"Tuvalu", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"UG","country_name":"Uganda", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"UA","country_name":"Ukraine", 
+	"cities":[
+		{"name":"Kyiv","geoCoords":{"latitude":50.447182, "longitude":30.530232}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"GB","country_name":"United Kingdom", 
+	"cities":[
+		{"name":"Belfast","geoCoords":{"latitude":54.593307, "longitude":-5.930660}, "type":"BIG_CITY"},
+		{"name":"Leads","geoCoords":{"latitude":53.791887, "longitude":-1.540907}, "type":"BIG_CITY"},
+		{"name":"Sheffield","geoCoords":{"latitude":53.380337, "longitude":-1.470829}, "type":"BIG_CITY"},
+		{"name":"Liverpool","geoCoords":{"latitude":53.394954, "longitude":-2.978729}, "type":"BIG_CITY"},
+		{"name":"Birmingham","geoCoords":{"latitude":52.488961, "longitude":-1.903515}, "type":"LARGE_CITY"},
+		{"name":"Cardiff","geoCoords":{"latitude":51.502415, "longitude":-3.175089}, "type":"BIG_CITY"},
+		{"name":"London","geoCoords":{"latitude":51.502572, "longitude":-0.132171}, "type":"METROPOL"}
+	]
+},
+{"country_code":"UK","country_name":"United Kingdom (Alt.)", 
+	"cities":[
+		{"name":"Belfast","geoCoords":{"latitude":54.593307, "longitude":-5.930660}, "type":"BIG_CITY"},
+		{"name":"Leads","geoCoords":{"latitude":53.791887, "longitude":-1.540907}, "type":"BIG_CITY"},
+		{"name":"Sheffield","geoCoords":{"latitude":53.380337, "longitude":-1.470829}, "type":"BIG_CITY"},
+		{"name":"Liverpool","geoCoords":{"latitude":53.394954, "longitude":-2.978729}, "type":"BIG_CITY"},
+		{"name":"Birmingham","geoCoords":{"latitude":52.488961, "longitude":-1.903515}, "type":"LARGE_CITY"},
+		{"name":"Cardiff","geoCoords":{"latitude":51.502415, "longitude":-3.175089}, "type":"BIG_CITY"},
+		{"name":"London","geoCoords":{"latitude":51.502572, "longitude":-0.132171}, "type":"METROPOL"}
+	]
+},
+{"country_code":"US","country_name":"United States", 
+	"cities":[
+		{"name":"Brooklyn","geoCoords":{"latitude":40.681045, "longitude":-73.883233}, "type":"SMALL_CITY"},
+		{"name":"New York","geoCoords":{"latitude":40.762634, "longitude":-74.097386}, "type":"MEDIUM_CITY"},
+		{"name":"Boston","geoCoords":{"latitude":42.369087, "longitude":-71.115986}, "type":"MEDIUM_CITY"},
+		{"name":"Washington","geoCoords":{"latitude":38.898281, "longitude":-77.030541}, "type":"LARGE_CITY"},
+		{"name":"Richmond","geoCoords":{"latitude":37.529757, "longitude":-77.466110}, "type":"LARGE_CITY"},
+		{"name":"Baltimore","geoCoords":{"latitude":39.322289, "longitude":-76.613227}, "type":"BIG_CITY"},
+		{"name":"Philadephia","geoCoords":{"latitude":39.951012, "longitude":-75.141084}, "type":"BIG_CITY"},
+		{"name":"Raleigh","geoCoords":{"latitude":35.778149, "longitude":-78.645770}, "type":"BIG_CITY"},
+		{"name":"Charlotte","geoCoords":{"latitude":35.223404, "longitude":-80.837483}, "type":"LARGE_CITY"},
+		{"name":"Atlanta","geoCoords":{"latitude":33.747577, "longitude":-84.390482}, "type":"LARGE_CITY"},
+		{"name":"Miami","geoCoords":{"latitude":25.875770, "longitude":-80.252654}, "type":"BIG_CITY"},
+		{"name":"Jacksonville","geoCoords":{"latitude":30.324749, "longitude":-81.665768}, "type":"LARGE_CITY"},
+		{"name":"Memphis","geoCoords":{"latitude":35.105743, "longitude":-89.943895}, "type":"LARGE_CITY"},
+		{"name":"Kansas City","geoCoords":{"latitude":39.087852, "longitude":-94.582823}, "type":"LARGE_CITY"},
+		{"name":"Tulsa","geoCoords":{"latitude":36.138091, "longitude":-95.924489}, "type":"LARGE_CITY"},
+		{"name":"Dallas","geoCoords":{"latitude":32.781953, "longitude":-96.881803}, "type":"LARGE_CITY"},
+		{"name":"Austin","geoCoords":{"latitude":30.292738, "longitude":-97.716594}, "type":"LARGE_CITY"},
+		{"name":"Hoston","geoCoords":{"latitude":29.755306, "longitude":-95.371102}, "type":"METROPOL"},
+		{"name":"Lincoln","geoCoords":{"latitude":40.809493, "longitude":-96.668062}, "type":"BIG_CITY"},
+		{"name":"Minneapolis","geoCoords":{"latitude":44.973922, "longitude":-93.253585}, "type":"METROPOL"},
+		{"name":"Chicago","geoCoords":{"latitude":41.860756, "longitude":-87.737139}, "type":"LARGE_CITY"},
+		{"name":"Detroit","geoCoords":{"latitude":42.397490, "longitude":-83.162759}, "type":"METROPOL"},
+		{"name":"Denver","geoCoords":{"latitude":39.741399, "longitude":-104.970284}, "type":"METROPOL"},
+		{"name":"Salt Like City","geoCoords":{"latitude":40.632079, "longitude":-111.901228}, "type":"LARGE_CITY"},
+		{"name":"Portland","geoCoords":{"latitude":45.506723, "longitude":-122.672162}, "type":"LARGE_CITY"},
+		{"name":"Seattle","geoCoords":{"latitude":47.601624, "longitude":-122.308090}, "type":"SMALL_CITY"},
+		{"name":"Tuscon","geoCoords":{"latitude":32.218837, "longitude":-110.924327}, "type":"BIG_CITY"},
+		{"name":"Phoenix","geoCoords":{"latitude":33.539553, "longitude":-112.106032}, "type":"LARGE_CITY"},
+		{"name":"Las Vegas","geoCoords":{"latitude":36.167476, "longitude":-115.157388}, "type":"LARGE_CITY"},
+		{"name":"Fresno","geoCoords":{"latitude":36.784757, "longitude":-119.775089}, "type":"BIG_CITY"},
+		{"name":"San Jose","geoCoords":{"latitude":37.328340, "longitude":-121.909184}, "type":"LARGE_CITY"},
+		{"name":"San Francisco","geoCoords":{"latitude":37.759693, "longitude":-122.445041}, "type":"BIG_CITY"},
+		{"name":"Los Angeles","geoCoords":{"latitude":33.960198, "longitude":-118.062418}, "type":"METROPOL"}
+	]
+},
+{"country_code":"UY","country_name":"Uruguay", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"UZ","country_name":"Uzbekistan", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"VU","country_name":"Vanuatu", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"VE","country_name":"Venezuela", 
+	"cities":[
+		{"name":"CNAME","geoCoords":{"latitude":0.000000, "longitude":0.000000}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"VN","country_name":"Vietnam", 
+	"cities":[
+		{"name":"Hanoi","geoCoords":{"latitude":21.028813, "longitude":105.850848}, "type":"BIG_CITY"},
+		{"name":"Ho Chi Minh City","geoCoords":{"latitude":10.786834, "longitude":106.685123}, "type":"SMALL_CITY"}
+	]
+},
+{"country_code":"EH","country_name":"Western Sahara", 
+	"cities":[
+		{"name":"Center","geoCoords":{"latitude":23.447026, "longitude":-13.217951}, "type":"LARGE_CITY"}
+	]
+},
+{"country_code":"YE","country_name":"Yemen", 
+	"cities":[
+		{"name":"Sana'a","geoCoords":{"latitude":15.365107, "longitude":44.207263}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ZM","country_name":"Zambia", 
+	"cities":[
+		{"name":"Lusaka","geoCoords":{"latitude":-15.412514, "longitude":28.295938}, "type":"BIG_CITY"}
+	]
+},
+{"country_code":"CIV","country_name":"Ivory Coast", 
+	"cities":[
+		{"name":"Windhoek","geoCoords":{"latitude":-22.566850, "longitude":17.075380}, "type":"SMALL_CITY"}
+	]
+},
+{"country_code":"RKS","country_name":"Kosovo", 
+	"cities":[
+		{"name":"Prestina","geoCoords":{"latitude":42.665440, "longitude":21.165320}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"LKA","country_name":"Sri Lanka", 
+	"cities":[
+		{"name":"Colombo","geoCoords":{"latitude":6.928738, "longitude":79.879449}, "type":"MEDIUM_CITY"}
+	]
+},
+{"country_code":"ZW","country_name":"Zimbabwe", 
+	"cities":[
+		{"name":"Harare","geoCoords":{"latitude":-17.825167, "longitude":31.033510}, "type":"BIG_CITY"}
+	]
+}
+]
