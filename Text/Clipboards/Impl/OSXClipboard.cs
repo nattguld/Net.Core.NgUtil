@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NgUtil.Debugging.Contracts;
+using System;
 using System.Runtime.InteropServices;
-using System.Text;
 
 namespace NgUtil.Text.Clipboards.Impl {
     public sealed class OSXClipboard : IClipboard {
@@ -10,44 +9,52 @@ namespace NgUtil.Text.Clipboards.Impl {
 
 
         public void CopyToClipboard(string input) {
-            IntPtr nsString = objc_getClass("NSString");
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
+            IntPtr nsString = NativeMethods.objc_getClass("NSString");
             IntPtr str = default;
             IntPtr dataType = default;
 
             try {
-                str = objc_msgSend(objc_msgSend(nsString, sel_registerName("alloc")), sel_registerName("initWithUTF8String:"), input);
-                dataType = objc_msgSend(objc_msgSend(nsString, sel_registerName("alloc")), sel_registerName("initWithUTF8String:"), NSPasteboardTypeString);
+                str = NativeMethods.objc_msgSend(NativeMethods.objc_msgSend(nsString, NativeMethods.sel_registerName("alloc"))
+                    , NativeMethods.sel_registerName("initWithUTF8String:"), input);
+                dataType = NativeMethods.objc_msgSend(NativeMethods.objc_msgSend(nsString, NativeMethods.sel_registerName("alloc"))
+                    , NativeMethods.sel_registerName("initWithUTF8String:"), NSPasteboardTypeString);
 
-                IntPtr nsPasteboard = objc_getClass("NSPasteboard");
-                IntPtr generalPasteboard = objc_msgSend(nsPasteboard, sel_registerName("generalPasteboard"));
+                IntPtr nsPasteboard = NativeMethods.objc_getClass("NSPasteboard");
+                IntPtr generalPasteboard = NativeMethods.objc_msgSend(nsPasteboard, NativeMethods.sel_registerName("generalPasteboard"));
 
-                objc_msgSend(generalPasteboard, sel_registerName("clearContents"));
-                objc_msgSend(generalPasteboard, sel_registerName("setString:forType:"), str, dataType);
+                NativeMethods.objc_msgSend(generalPasteboard, NativeMethods.sel_registerName("clearContents"));
+                NativeMethods.objc_msgSend(generalPasteboard, NativeMethods.sel_registerName("setString:forType:"), str, dataType);
 
             } finally {
                 if (str != default) {
-                    objc_msgSend(str, sel_registerName("release"));
+                    NativeMethods.objc_msgSend(str, NativeMethods.sel_registerName("release"));
                 }
                 if (dataType != default) {
-                    objc_msgSend(dataType, sel_registerName("release"));
+                    NativeMethods.objc_msgSend(dataType, NativeMethods.sel_registerName("release"));
                 }
             }
         }
 
-        [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit")]
-        static extern IntPtr objc_getClass(string className);
+        internal static class NativeMethods {
 
-        [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit")]
-        static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector);
+            [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit", CharSet = CharSet.Unicode)]
+            internal static extern IntPtr objc_getClass(string className);
 
-        [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit")]
-        static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector, string arg1);
+            [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit", CharSet = CharSet.Unicode)]
+            internal static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector);
 
-        [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit")]
-        static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector, IntPtr arg1, IntPtr arg2);
+            [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit", CharSet = CharSet.Unicode)]
+            internal static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector, string arg1);
 
-        [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit")]
-        static extern IntPtr sel_registerName(string selectorName);
+            [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit", CharSet = CharSet.Unicode)]
+            internal static extern IntPtr objc_msgSend(IntPtr receiver, IntPtr selector, IntPtr arg1, IntPtr arg2);
+
+            [DllImport("/System/Library/Frameworks/AppKit.framework/AppKit", CharSet = CharSet.Unicode)]
+            internal static extern IntPtr sel_registerName(string selectorName);
+
+        }
 
     }
 }

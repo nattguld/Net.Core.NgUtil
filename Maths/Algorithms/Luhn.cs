@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using NgUtil.Debugging.Contracts;
 
 namespace NgUtil.Maths.Algorithms {
     public static class Luhn {
 
         public static int GenerateChecksumDigit(string number) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(number));
+
             char sum = default;
 
             bool alt = true;
@@ -30,12 +30,14 @@ namespace NgUtil.Maths.Algorithms {
             return (10 - (sum % 10));
         }
 
-        public static bool IsValid(String number) {
+        public static bool IsValid(string number) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(number));
+
             int sum = 0;
             bool alternate = false;
 
             for (int i = number.Length - 1; i >= 0; i--) {
-                int n = int.Parse(number.Substring(i, i + 1));
+                int n = MathUtil.ParseInt(number.Substring(i, i + 1));
 
                 if (alternate) {
                     n *= 2;

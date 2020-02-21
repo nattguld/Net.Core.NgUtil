@@ -63,6 +63,16 @@ namespace NgUtil {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        public static byte[] countries {
+            get {
+                object obj = ResourceManager.GetObject("countries", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         public static byte[] country_cities {
             get {
                 object obj = ResourceManager.GetObject("country_cities", resourceCulture);
@@ -96,6 +106,16 @@ namespace NgUtil {
         public static byte[] country_phone_codes {
             get {
                 object obj = ResourceManager.GetObject("country_phone_codes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        public static byte[] languages {
+            get {
+                object obj = ResourceManager.GetObject("languages", resourceCulture);
                 return ((byte[])(obj));
             }
         }

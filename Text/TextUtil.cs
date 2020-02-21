@@ -1,5 +1,6 @@
-﻿using NgUtil.Maths;
-using NgUtil.System;
+﻿using NgUtil.Debugging.Contracts;
+using NgUtil.Maths;
+using NgUtil.Systems;
 using NgUtil.Text.Clipboards;
 using NgUtil.Text.Clipboards.Impl;
 using System;
@@ -9,17 +10,13 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace NgUtil.Text {
-    public class TextUtil {
+    public static class TextUtil {
 
         public const string UrlRegex = "((https?|ftp|gopher|telnet|file):((//)|(\\\\))+[\\w\\d:#@%/;$()~_?\\+-=\\\\\\.&]*[-a-zA-Z0-9+&@#/%=~_|])";
 
 
-        public static bool EqualsIgnoreCase(string input, string compare) {
-            return input.Equals(compare, StringComparison.InvariantCultureIgnoreCase);
-        }
-
         public static string ZerofyInteger(int value) {
-            return value < 10 ? ("0" + value) : value.ToString();
+            return value < 10 ? ("0" + value) : StringLocale.ToString(value);
         }
 
         public static string GetAsNonNull(string input) {
@@ -27,6 +24,8 @@ namespace NgUtil.Text {
         }
 
         public static List<string> ExtractUrls(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             List<string> urls = new List<string>();
 
             Regex regex = new Regex(UrlRegex, RegexOptions.IgnoreCase);
@@ -39,6 +38,8 @@ namespace NgUtil.Text {
         }
 
         public static string ExtractDigits(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             Regex regex = new Regex("\\d+");
             MatchCollection results = regex.Matches(input);
 
@@ -51,11 +52,14 @@ namespace NgUtil.Text {
         }
 
         public static void CopyToClipboardAsync(string input) {
-            Task.Factory.StartNew(() => CopyToClipboard(input));
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+            Task.Run(() => CopyToClipboard(input));
         }
 
         public static void CopyToClipboard(string input) {
-            IClipboard clipboard = null;
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
+            IClipboard clipboard;
 
             if (SystemUtil.IsWindows()) {
                 clipboard = new WindowsClipboard();
@@ -76,28 +80,30 @@ namespace NgUtil.Text {
             if (string.IsNullOrEmpty(input)) {
                 return "";
             }
-            string prepared = input.ToLower();
-            return prepared.Substring(0, 1).ToUpper() + prepared.Substring(1);
+            string prepared = StringLocale.ToLower(input);
+            return StringLocale.ToUpper(prepared.Substring(0, 1)) + prepared.Substring(1);
         }
 
-        public static string Capitalize(string input, Delimiter delimiter) {
+        public static string Capitalize(string input, string delimiter) {
             if (string.IsNullOrEmpty(input)) {
                 return "";
             }
-            string[] parts = input.Split(delimiter.Character);
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(delimiter));
+
+            string[] parts = input.Split(delimiter);
             StringBuilder sb = new StringBuilder();
 
             for (int i = 0; i < parts.Length; i++) {
                 sb.Append(Capitalize(parts[i]));
 
                 if (i < (parts.Length - 1)) {
-                    sb.Append(delimiter.Character);
+                    sb.Append(delimiter);
                 }
             }
             return sb.ToString();
         }
 
-        public static string RandomString(int minSize, int maxSize, params TextSeed[] seeds) {
+        public static string RandomString(int minSize, int maxSize, params ETextSeed[] seeds) {
             if (seeds == null || seeds.Length == 0) {
                 throw new Exception("Invalid string generator arguments.");
             }
@@ -105,21 +111,21 @@ namespace NgUtil.Text {
             int size = minSize + (maxSize == minSize ? 0 : MathUtil.Random(maxSize - minSize));
 
             while (characters.Count < size) {
-                string[] chars = seeds[MathUtil.Random(seeds.Length)].Characters;
+                string[] chars = seeds[MathUtil.Random(seeds.Length)].GetCharacters();
 
                 if (characters.Count >= (size - seeds.Length)) {
                     int seedIndex = size - characters.Count;
-                    TextSeed seed = seeds[seedIndex - 1];
+                    ETextSeed seed = seeds[seedIndex - 1];
                     bool missingSeed = true;
 
-                    foreach (string s in seed.Characters) {
+                    foreach (string s in seed.GetCharacters()) {
                         if (characters.Contains(s)) {
                             missingSeed = false;
                             break;
                         }
                     }
                     if (missingSeed) {
-                        chars = seed.Characters;
+                        chars = seed.GetCharacters();
                     }
                 }
                 characters.Add(chars[MathUtil.Random(chars.Length)]);
@@ -133,11 +139,11 @@ namespace NgUtil.Text {
         }
 
         public static string GeneratePassword() {
-            return RandomString(8, 16, TextSeed.DIGITS, TextSeed.LOWERCASE, TextSeed.UPPERCASE);
+            return RandomString(8, 16, ETextSeed.Digits, ETextSeed.Lowercase, ETextSeed.Uppercase);
         }
 
         public static string GenerateComplexPassword() {
-            return RandomString(8, 16, TextSeed.DIGITS, TextSeed.LOWERCASE, TextSeed.UPPERCASE, TextSeed.SYMBOLS);
+            return RandomString(8, 16, ETextSeed.Digits, ETextSeed.Lowercase, ETextSeed.Uppercase, ETextSeed.Symbols);
         }
 
         public static string GenerateRandomNumber() {
@@ -145,7 +151,7 @@ namespace NgUtil.Text {
         }
 
         public static string GenerateRandomNumber(int minSize, int maxSize) {
-            return TextUtil.RandomString(minSize, maxSize, TextSeed.DIGITS);
+            return RandomString(minSize, maxSize, ETextSeed.Digits);
         }
 
         public static string GenerateFakeEmail() {
@@ -153,17 +159,19 @@ namespace NgUtil.Text {
         }
 
         public static string GenerateFakeEmail(string domain) {
-            if (!domain.StartsWith("@")) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(domain));
+
+            if (!domain.StartsWith("@", StringComparison.Ordinal)) {
                 domain = "@" + domain;
             }
-            return TextUtil.RandomString(8, 16, TextSeed.LOWERCASE) + MathUtil.Random(999) + domain;
+            return TextUtil.RandomString(8, 16, ETextSeed.Lowercase) + MathUtil.Random(999) + domain;
         }
 
         public static string Spintax(string input) {
             if (string.IsNullOrEmpty(input)) {
                 return "";
             }
-            if (!input.Contains("{") && !input.Contains("}")) {
+            if (!input.Contains("{", StringComparison.Ordinal) && !input.Contains("}", StringComparison.Ordinal)) {
                 return input;
             }
             Regex regex = new Regex("\\{[^{}]*\\}");
@@ -187,6 +195,8 @@ namespace NgUtil.Text {
         }
 
         public static bool IsLetters(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             foreach (char c in input.ToCharArray()) {
                 if (!char.IsLetter(c)) {
                     return false;
@@ -196,6 +206,8 @@ namespace NgUtil.Text {
         }
 
         public static bool IsDigits(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             foreach (char c in input.ToCharArray()) {
                 if (!char.IsDigit(c)) {
                     return false;

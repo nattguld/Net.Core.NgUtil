@@ -1,32 +1,32 @@
-﻿using NgUtil.Locale.Models.Impl;
+﻿using NgUtil.Debugging.Contracts;
+using NgUtil.Files.IO;
+using NgUtil.Locale.Models.Impl;
 using NgUtil.Maths;
-using NgUtil.Text;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Text;
-using Utf8Json;
 
 namespace NgUtil.Locale {
     public static class LocaleManager {
 
-        private static readonly List<Language> LANGUAGES = new List<Language>();
+        private static readonly List<Language> Languages = new List<Language>();
 
-        private static readonly List<Country> COUNTRIES = new List<Country>();
+        private static readonly List<Country> Countries = new List<Country>();
 
-        private static readonly List<CountryLanguages> COUNTRY_LANGUAGES = new List<CountryLanguages>();
+        private static readonly List<CountryLanguages> CountryLanguages = new List<CountryLanguages>();
 
-        private static readonly List<CountryCurrency> COUNTRY_CURRENCIES = new List<CountryCurrency>();
+        private static readonly List<CountryCurrency> CountryCurrencies = new List<CountryCurrency>();
 
-        private static readonly List<CountryPhoneCode> COUNTRY_PHONE_CODES = new List<CountryPhoneCode>();
+        private static readonly List<CountryPhoneCode> CountryPhoneCodes = new List<CountryPhoneCode>();
 
 
         public static Language GetLanguageByIsoCode(string isoCode) {
-            if (LANGUAGES.Count == 0) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(isoCode));
+
+            if (Languages.Count == 0) {
                 LoadLanguages();
             }
-            foreach (Language lang in LANGUAGES) {
-                if (TextUtil.EqualsIgnoreCase(lang.IsoCode, isoCode)) {
+            foreach (Language lang in Languages) {
+                if (lang.IsoCode.Equals(isoCode, StringComparison.OrdinalIgnoreCase)) {
                     return lang;
                 }
             }
@@ -34,11 +34,13 @@ namespace NgUtil.Locale {
         }
 
         public static Language GetLanguageByName(string name) {
-            if (LANGUAGES.Count == 0) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(name));
+
+            if (Languages.Count == 0) {
                 LoadLanguages();
             }
-            foreach (Language lang in LANGUAGES) {
-                if (TextUtil.EqualsIgnoreCase(lang.Name, name)) {
+            foreach (Language lang in Languages) {
+                if (lang.Name.Equals(name, StringComparison.OrdinalIgnoreCase)) {
                     return lang;
                 }
             }
@@ -46,11 +48,13 @@ namespace NgUtil.Locale {
         }
 
         public static Country GetCountryByIsoCode(string isoCode) {
-            if (COUNTRIES.Count == 0) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(isoCode));
+
+            if (Countries.Count == 0) {
                 LoadCountries();
             }
-            foreach (Country cr in COUNTRIES) {
-                if (TextUtil.EqualsIgnoreCase(cr.IsoCode, isoCode)) {
+            foreach (Country cr in Countries) {
+                if (cr.IsoCode.Equals(isoCode, StringComparison.OrdinalIgnoreCase)) {
                     return cr;
                 }
             }
@@ -58,11 +62,13 @@ namespace NgUtil.Locale {
         }
 
         public static Country GetCountryByName(string name) {
-            if (COUNTRIES.Count == 0) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(name));
+
+            if (Countries.Count == 0) {
                 LoadCountries();
             }
-            foreach (Country cr in COUNTRIES) {
-                if (TextUtil.EqualsIgnoreCase(cr.Name, name)) {
+            foreach (Country cr in Countries) {
+                if (cr.Name.Equals(name, StringComparison.OrdinalIgnoreCase)) {
                     return cr;
                 }
             }
@@ -70,11 +76,13 @@ namespace NgUtil.Locale {
         }
 
         public static Language[] GetCountryLanguages(Country cr) {
-            if (COUNTRY_LANGUAGES.Count == 0) {
+            EmptyParamContract.Validate(cr != null);
+
+            if (CountryLanguages.Count == 0) {
                 LoadCountryLanguages();
             }
-            foreach (CountryLanguages cls in COUNTRY_LANGUAGES) {
-                if (TextUtil.EqualsIgnoreCase(cls.CountryCode, cr.IsoCode)) {
+            foreach (CountryLanguages cls in CountryLanguages) {
+                if (cls.CountryCode.Equals(cr.IsoCode, StringComparison.OrdinalIgnoreCase)) {
                     return cls.Languages;
                 }
             }
@@ -82,6 +90,8 @@ namespace NgUtil.Locale {
         }
 
         public static bool CountryHasLanguage(Country cr, Language lang) {
+            EmptyParamContract.Validate(cr != null && lang != null);
+
             foreach (Language crLang in GetCountryLanguages(cr)) {
                 if (crLang == lang) {
                     return true;
@@ -91,14 +101,18 @@ namespace NgUtil.Locale {
         }
 
         public static Language GetRandomCountryLanguage(Country cr) {
+            EmptyParamContract.Validate(cr != null);
+
             Language[] langs = GetCountryLanguages(cr);
             return langs[MathUtil.Random(langs.Length)];
         }
 
         public static List<Country> GetCountriesUsingLanguage(Language lang) {
+            EmptyParamContract.Validate(lang != null);
+
             List<Country> crs = new List<Country>();
 
-            foreach (Country cr in COUNTRIES) {
+            foreach (Country cr in Countries) {
                 if (CountryHasLanguage(cr, lang)) {
                     crs.Add(cr);
                 }
@@ -107,23 +121,28 @@ namespace NgUtil.Locale {
         }
 
         public static string GetLocaleCode(Country cr, Language lang) {
+            EmptyParamContract.Validate(cr != null && lang != null);
             return lang.IsoCode + "-" + cr.IsoCode;
         }
 
         public static string GetRandomBrowserLocaleValue(Country cr) {
+            EmptyParamContract.Validate(cr != null);
             return GetBrowserLocaleValue(cr, GetRandomCountryLanguage(cr));
         }
 
         public static string GetBrowserLocaleValue(Country cr, Language lang) {
+            EmptyParamContract.Validate(cr != null && lang != null);
             return GetLocaleCode(cr, lang) + "," + lang.IsoCode + ";q=0.9";
         }
 
         public static CountryPhoneCode GetCountryPhoneCode(Country cr) {
-            if (COUNTRY_PHONE_CODES.Count == 0) {
+            EmptyParamContract.Validate(cr != null);
+
+            if (CountryPhoneCodes.Count == 0) {
                 LoadCountryPhoneCodes();
             }
-            foreach (CountryPhoneCode cpc in COUNTRY_PHONE_CODES) {
-                if (TextUtil.EqualsIgnoreCase(cpc.CountryCode, cr.IsoCode)) {
+            foreach (CountryPhoneCode cpc in CountryPhoneCodes) {
+                if (cpc.CountryCode.Equals(cr.IsoCode, StringComparison.OrdinalIgnoreCase)) {
                     return cpc;
                 }
             }
@@ -131,11 +150,13 @@ namespace NgUtil.Locale {
         }
 
         public static CountryCurrency GetCountryCurrency(Country cr) {
-            if (COUNTRY_CURRENCIES.Count == 0) {
+            EmptyParamContract.Validate(cr != null);
+
+            if (CountryCurrencies.Count == 0) {
                 LoadCountryCurrencies();
             }
-            foreach (CountryCurrency cc in COUNTRY_CURRENCIES) {
-                if (TextUtil.EqualsIgnoreCase(cc.CountryCode, cr.IsoCode)) {
+            foreach (CountryCurrency cc in CountryCurrencies) {
+                if (cc.CountryCode.Equals(cr.IsoCode, StringComparison.OrdinalIgnoreCase)) {
                     return cc;
                 }
             }
@@ -144,45 +165,26 @@ namespace NgUtil.Locale {
 
         private static void LoadCountryPhoneCodes() {
             //LoadJsonResource("country_phone_codes.json", COUNTRY_PHONE_CODES);
-            LoadJsonResource(NgUtil.Resources.country_phone_codes, COUNTRY_PHONE_CODES);
+            JsonIO.LoadJsonResources(Resources.country_phone_codes, CountryPhoneCodes);
         }
 
         private static void LoadCountryCurrencies() {
             //LoadJsonResource("country_currencies.json", COUNTRY_CURRENCIES);
-            LoadJsonResource(NgUtil.Resources.country_currencies, COUNTRY_CURRENCIES);
+            JsonIO.LoadJsonResources(Resources.country_currencies, CountryCurrencies);
         }
 
         private static void LoadCountries() {
             //LoadJsonResource("countries.json", COUNTRIES);
-            //LoadJsonResource(NgUtil.Resources.countries, COUNTRIES);
+            JsonIO.LoadJsonResources(Resources.countries, Countries);
         }
 
         private static void LoadLanguages() {
             //LoadJsonResource("languages.json", LANGUAGES);
-            //LoadJsonResource(NgUtil.Resources.languages, LANGUAGES);
+            JsonIO.LoadJsonResources(Resources.languages, Languages);
         }
 
         private static void LoadCountryLanguages() {
-            //LoadJsonResource("country_languages.json", COUNTRY_LANGUAGES);
-            LoadJsonResource(NgUtil.Resources.country_languages, COUNTRY_LANGUAGES);
-        }
-
-        private static void LoadJsonResource<T>(byte[] resource, List<T> list) {
-           /* string savePath = Path.Combine(Environment.CurrentDirectory, @"Resources\Data\", fileName);
-
-            if (!File.Exists(savePath)) {
-                throw new Exception("Json resource not found: " + savePath);
-            }
-            string json = File.ReadAllText(savePath);
-
-            if (string.IsNullOrEmpty(json)) {
-                throw new Exception("Json resource has no content: " + savePath);
-            }*/
-            list.Clear();
-
-            foreach (T element in JsonSerializer.Deserialize<T[]>(resource)) {
-                list.Add(element);
-            }
+            JsonIO.LoadJsonResources(Resources.country_languages, CountryLanguages);
         }
 
     }

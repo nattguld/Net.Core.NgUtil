@@ -20,6 +20,7 @@ namespace NgUtil.Maths.Ranges.Impl {
                 throw new ArgumentOutOfRangeException("Range can't be less than minimum => " + ToString());
             }
             Random random = new Random();
+
             double range = (double)(Max - Min);
             double rand;
 

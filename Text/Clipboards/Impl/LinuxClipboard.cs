@@ -1,5 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NgUtil.Debugging.Contracts;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
@@ -9,6 +9,8 @@ namespace NgUtil.Text.Clipboards.Impl {
 
 
         public void CopyToClipboard(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             string tempFileName = Path.GetTempFileName();
             File.WriteAllText(tempFileName, input);
 

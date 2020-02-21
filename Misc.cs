@@ -1,5 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using NgUtil.Debugging.Contracts;
+using NgUtil.Text;
+using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -8,15 +9,17 @@ using System.Threading;
 namespace NgUtil {
     public static class Misc {
 
-        public static void OpenLink(string url) {
+        public static void OpenLink(string link) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(link));
+
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows)) {
-                Process.Start(new ProcessStartInfo(url) { UseShellExecute = true }); // Works ok on windows
+                Process.Start(new ProcessStartInfo(link) { UseShellExecute = true }); // Works ok on windows
             } else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux)) {
-                Process.Start("xdg-open", url);  // Works ok on linux
+                Process.Start("xdg-open", link);  // Works ok on linux
             } else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX)) {
-                Process.Start("open", url); // Not tested
+                Process.Start("open", link); // Not tested
             } else {
-                throw new Exception("Failed to open link: " + url);
+                throw new Exception("Failed to open link: " + link);
             }
         }
 
@@ -39,7 +42,7 @@ namespace NgUtil {
                 }
                 sb.Append(string.Format("%02x", b));
             }
-            return sb.ToString().ToUpper();
+            return StringLocale.ToUpper(sb.ToString());
         }
 
     }

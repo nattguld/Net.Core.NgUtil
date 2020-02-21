@@ -1,27 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Contracts;
 using System.Runtime.Serialization;
 using System.Text;
+using System.Text.Json.Serialization;
 
 namespace NgUtil.Locale.Models.Impl {
     public class CountryCurrency : CountryModel {
 
-        [DataMember(Name = "currency_code")]
+        [JsonPropertyName("currency_code")]
         public string CurrencyCode { get; }
 
-        [DataMember(Name = "usd_modifier")]
+        [JsonPropertyName("usd_modifier")]
         public double UsdModifier { get; }
 
-        [DataMember(Name = "currency_symbol")]
+        [JsonPropertyName("currency_symbol")]
         public string CurrencySymbol { get; }
-
-
-        public CountryCurrency(string countryCode, string countryName, string currencyCode
-            , double usdModifier, string currencySymbol) : base(countryCode, countryName) {
-            CurrencyCode = currencyCode;
-            UsdModifier = usdModifier;
-            CurrencySymbol = currencySymbol;
-        }
 
     }
 }

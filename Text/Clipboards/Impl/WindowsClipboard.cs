@@ -1,7 +1,7 @@
-﻿using System;
+﻿using NgUtil.Debugging.Contracts;
+using System;
 using System.ComponentModel;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 
 namespace NgUtil.Text.Clipboards.Impl {
     public sealed class WindowsClipboard : IClipboard {
@@ -10,10 +10,12 @@ namespace NgUtil.Text.Clipboards.Impl {
 
 
         public void CopyToClipboard(string input) {
+            EmptyParamContract.Validate(!string.IsNullOrEmpty(input));
+
             if (!WaitForClipboard()) {
                 throw new Win32Exception(Marshal.GetLastWin32Error());
             }
-            EmptyClipboard();
+            NativeMethods.EmptyClipboard();
 
             IntPtr hGlobal = default;
 
@@ -24,7 +26,7 @@ namespace NgUtil.Text.Clipboards.Impl {
                 if (hGlobal == default) {
                     throw new Win32Exception(Marshal.GetLastWin32Error());
                 }
-                var target = GlobalLock(hGlobal);
+                var target = NativeMethods.GlobalLock(hGlobal);
 
                 if (target == default) {
                     throw new Win32Exception(Marshal.GetLastWin32Error());
@@ -32,9 +34,9 @@ namespace NgUtil.Text.Clipboards.Impl {
                 try {
                     Marshal.Copy(input.ToCharArray(), 0, target, input.Length);
                 } finally {
-                    GlobalUnlock(target);
+                    NativeMethods.GlobalUnlock(target);
                 }
-                if (SetClipboardData(cfUnicodeText, hGlobal) == default) {
+                if (NativeMethods.SetClipboardData(cfUnicodeText, hGlobal) == default) {
                     throw new Win32Exception(Marshal.GetLastWin32Error());
                 }
                 hGlobal = default;
@@ -43,7 +45,7 @@ namespace NgUtil.Text.Clipboards.Impl {
                 if (hGlobal != default) {
                     Marshal.FreeHGlobal(hGlobal);
                 }
-                CloseClipboard();
+                NativeMethods.CloseClipboard();
             }
         }
 
@@ -51,7 +53,7 @@ namespace NgUtil.Text.Clipboards.Impl {
             int timeout = 1000;
 
             while (timeout > 0) {
-                if (OpenClipboard(default)) {
+                if (NativeMethods.OpenClipboard(default)) {
                     return true;
                 }
                 timeout -= 100;
@@ -60,26 +62,30 @@ namespace NgUtil.Text.Clipboards.Impl {
             return false;
         }
 
-        [DllImport("kernel32.dll", SetLastError = true)]
-        static extern IntPtr GlobalLock(IntPtr hMem);
+        internal static class NativeMethods {
 
-        [DllImport("kernel32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        static extern bool GlobalUnlock(IntPtr hMem);
+            [DllImport("kernel32.dll", SetLastError = true)]
+            internal static extern IntPtr GlobalLock(IntPtr hMem);
 
-        [DllImport("user32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        static extern bool OpenClipboard(IntPtr hWndNewOwner);
+            [DllImport("kernel32.dll", SetLastError = true)]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            internal static extern bool GlobalUnlock(IntPtr hMem);
 
-        [DllImport("user32.dll", SetLastError = true)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        static extern bool CloseClipboard();
+            [DllImport("user32.dll", SetLastError = true)]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            internal static extern bool OpenClipboard(IntPtr hWndNewOwner);
 
-        [DllImport("user32.dll", SetLastError = true)]
-        static extern IntPtr SetClipboardData(uint uFormat, IntPtr data);
+            [DllImport("user32.dll", SetLastError = true)]
+            [return: MarshalAs(UnmanagedType.Bool)]
+            internal static extern bool CloseClipboard();
 
-        [DllImport("user32.dll")]
-        static extern bool EmptyClipboard();
+            [DllImport("user32.dll", SetLastError = true)]
+            internal static extern IntPtr SetClipboardData(uint uFormat, IntPtr data);
+
+            [DllImport("user32.dll")]
+            internal static extern bool EmptyClipboard();
+
+        }
 
     }
 }

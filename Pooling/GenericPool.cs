@@ -13,7 +13,7 @@ namespace NgUtil.Pooling {
 
 
         public GenericPool(int maxPoolSize) {
-            MaxPoolSize = MaxPoolSize;
+            MaxPoolSize = maxPoolSize;
             IdlePool = new List<T>();
             ActivePool = new List<T>();
         }

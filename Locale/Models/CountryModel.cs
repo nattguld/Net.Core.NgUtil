@@ -1,21 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using System.Text;
+﻿using NgUtil.Debugging.Contracts;
+using System;
+using System.Text.Json.Serialization;
 
 namespace NgUtil.Locale.Models {
     public abstract class CountryModel {
 
-        [DataMember(Name = "country_code")]
+        [JsonPropertyName("country_code")]
         public string CountryCode { get; }
 
-        [DataMember(Name = "country_name")]
+        [JsonPropertyName("country_name")]
         public string CountryName { get; }
 
 
-        public CountryModel(string countryCode, string countryName) {
-            CountryCode = countryCode;
-            CountryName = countryName;
+        public bool Equals(CountryModel other) {
+            EmptyParamContract.Validate(other != null);
+            return CountryCode.Equals(other.CountryCode, StringComparison.Ordinal)
+                && CountryName.Equals(other.CountryName, StringComparison.Ordinal);
         }
 
     }
